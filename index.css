@@ -40,6 +40,9 @@ nav img {
 main {
     padding: 3rem 1.75rem;
     color: whitesmoke;
+    background-image: url(./public/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .main-title {
