@@ -1,8 +1,8 @@
 import logo from "/react.svg"
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
-        <nav>
+        <nav className={props.lightMode ? "light" : ""}>
             <div className="nav-container">
                 <div className="title">
                     <img src={logo} />
