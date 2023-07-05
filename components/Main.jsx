@@ -1,6 +1,6 @@
-export default function Main() {
+export default function Main(props) {
     return (
-        <main>
+        <main className={props.lightMode ? "light" : ""}>
             <div className="main-container">
                 <h1 className="main-title">Facts about React</h1>
                 <ul className="main-facts">

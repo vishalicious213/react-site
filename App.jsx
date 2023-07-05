@@ -5,8 +5,9 @@ export default function App() {
     return (
         <>
             <Navbar />
-            {/* <Navbar lightMode="light" /> */}
             <Main />
+            {/* <Navbar lightMode="light" /> */}
+            {/* <Main lightMode="light" /> */}
         </>
     )
 }
