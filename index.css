@@ -13,6 +13,10 @@ body {
     background-color: #FFFFFF;
 }
 
+.light-nav {
+    background-color: #a1a1a1;
+}
+
 .light-text {
     color: #000000;
 }
