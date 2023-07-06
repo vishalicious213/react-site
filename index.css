@@ -9,18 +9,6 @@ body {
     background-color: #282D35;
 }
 
-.light {
-    background-color: #FFFFFF;
-}
-
-.light-nav {
-    background-color: #a1a1a1;
-}
-
-.light-text {
-    color: #000000;
-}
-
 /* NAV */
 
 nav {
@@ -66,7 +54,6 @@ nav img {
 .toggler-dark {
     color: gainsboro;
 }
-
 
 .toggler-slider {
     width: 25px;
@@ -123,4 +110,23 @@ main {
 .main-facts li::marker {
     color: #61DAFB;
     font-size: 1.4rem;
+}
+
+/* LIGHTMODE */
+
+
+.light {
+    background-color: #FFFFFF;
+}
+
+.light-nav {
+    background-color: #a1a1a1;
+}
+
+.light-text {
+    color: #000000;
+}
+
+.toggler-slider-light {
+    justify-content: flex-start;
 }
