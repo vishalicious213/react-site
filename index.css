@@ -59,6 +59,15 @@ nav img {
     align-items: center;
 }
 
+.toggler-light {
+    color: gray;
+}
+
+.toggler-dark {
+    color: gainsboro;
+}
+
+
 .toggler-slider {
     width: 25px;
     height: 13px;
@@ -67,10 +76,19 @@ nav img {
     margin-inline: 7px;
     cursor: pointer;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     border: 1px solid black;
     box-sizing: content-box;
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.toggler-slider-circle {
+    height: 13px;
+    width: 13px;
+    background-color: black;
+    border-radius: 50%;
 }
 
 /* MAIN */
