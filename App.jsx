@@ -5,9 +5,13 @@ import Main from "./components/Main"
 export default function App() {
     const [lightMode, setLightMode] = useState(false)
 
+    function toggleLightMode() {
+        setLightMode(prevState => !prevState)
+    }
+
     return (
         <>
-            <Navbar lightMode={lightMode} />
+            <Navbar lightMode={lightMode} toggleLightMode={toggleLightMode} />
             <Main lightMode={lightMode} />
         </>
     )
