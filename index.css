@@ -52,6 +52,27 @@ nav img {
     width: 2rem;
 }
 
+/* TOGGLER */
+
+.toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler-slider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
 /* MAIN */
 
 main {
