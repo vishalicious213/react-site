@@ -49,10 +49,12 @@ nav img {
 
 .toggler-light {
     color: gray;
+    font-size: .75rem;
 }
 
 .toggler-dark {
     color: gainsboro;
+    font-size: .75rem;
 }
 
 .toggler-slider {
@@ -74,7 +76,7 @@ nav img {
 .toggler-slider-circle {
     height: 13px;
     width: 13px;
-    background-color: black;
+    background-color: #282D35;
     border-radius: 50%;
 }
 
