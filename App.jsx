@@ -7,6 +7,7 @@ export default function App() {
 
     function toggleLightMode() {
         setLightMode(prevState => !prevState)
+        document.body.classList.toggle("light")
     }
 
     return (
