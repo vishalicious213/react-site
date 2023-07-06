@@ -8,7 +8,16 @@ export default function Navbar(props) {
                     <img src={logo} />
                     <h3 className="name">ReactFacts</h3>
                 </div>
-                <h4 className="title" onClick={props.toggleLightMode}>React Course - Project 1</h4>
+
+                <div className="toggler" onClick={props.toggleLightMode}>
+                    <p className="toggler-light">Light</p>
+                    <div className="toggler-slider">
+                        <div className="toggler-slider-circle"></div>
+                    </div>
+                    <p className="toggler-dark">Dark</p>
+                </div>
+
+                {/* <h4 className="title" onClick={props.toggleLightMode}>React Course - Project 1</h4> */}
             </div>
         </nav>
     )
