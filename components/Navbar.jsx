@@ -16,8 +16,6 @@ export default function Navbar(props) {
                     </div>
                     <p className={props.lightMode ? "toggler-light" : "toggler-dark"}>Dark</p>
                 </div>
-
-                {/* <h4 className="title" onClick={props.toggleLightMode}>React Course - Project 1</h4> */}
             </div>
         </nav>
     )
